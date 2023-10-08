@@ -7,6 +7,7 @@ export default function Header() {
     <a href="/results" className="links"><p>Results</p></a>
     <a href="/#goals" className="links"><p>Goals</p></a>
     <a href="/#mission" className="links"><p>Mission</p></a>
+    <a href="/#technologies" className="links"><p>Technologies</p></a>
     </div>
   )
 }
