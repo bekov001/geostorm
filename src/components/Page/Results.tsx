@@ -1,12 +1,11 @@
 import {
-    Bar,
-    CartesianGrid,
-    ComposedChart,
-    ResponsiveContainer,
-    Tooltip,
-    XAxis,
-    YAxis,
-    Cell
+  Bar,
+  CartesianGrid,
+  ComposedChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis
 } from 'recharts';
 
 
