@@ -195,3 +195,19 @@
   margin-left: 50px;
   margin-bottom: 30px;
 }
+
+.jigitter{
+  text-decoration: none; /* Remove underline */
+  color: white; /* Change text color to black */
+  margin-left: 20px; /* Add margin as needed */
+  margin-right: 30px; /* Add margin as needed */
+  font-size: 30px;
+}
+
+.headerone{
+  color: white;
+}
+
+.headerthree{
+  color: white;
+}
