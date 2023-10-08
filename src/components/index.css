@@ -228,3 +228,25 @@
 .headerthree{
   color: white;
 }
+
+.technology{
+  display: flex;
+}
+
+.technology-pictures{
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.under-text{
+  color: gray;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.text-container{
+  flex-direction: column;
+}

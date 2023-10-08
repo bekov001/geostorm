@@ -1,4 +1,5 @@
 import AboutUs from '../AboutUs';
+import Footer from "../Footer";
 import Video from '../Video';
 
 
@@ -7,6 +8,7 @@ function Home() {
     <div>
         <Video></Video>
         <AboutUs></AboutUs>
+        <Footer></Footer>
     </div>
   );
 }
