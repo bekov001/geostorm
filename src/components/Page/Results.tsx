@@ -44,9 +44,9 @@ const data = [
 
 function Results() {
   return (
-    <>
-        <h1 className="headerone">asdfajsdhlf</h1>
-        <h3 className="headerthree">asoibdfbasd</h3>
+    <div style={{position: "absolute", marginTop: 50}}>
+        <h1 className="headerone">Results</h1>
+        <h3 className="headerthree">k-index</h3>
         <ComposedChart
             width={1300}
             height={400}
@@ -68,7 +68,7 @@ function Results() {
             <Tooltip />
             <Bar dataKey="uv" barSize={40} fill="#413ea0" />
         </ComposedChart>
-    </>
+    </div>
   );
 }
 

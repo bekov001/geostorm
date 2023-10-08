@@ -3,6 +3,22 @@
     padding: 0;
 } */
 
+* {
+  scroll-behavior: smooth;
+}
+
+.links {
+  font-size: 20px; 
+  margin-left: 30px;
+  color: #fff;
+  text-decoration: none;
+  z-index:10;
+}
+
+.links:hover {
+  text-decoration: underline;
+ }
+
 .header {
   box-sizing: border-box;
   width: 100%;
@@ -11,8 +27,9 @@
   align-items: center;
   padding: 0.1em;
   /* margin-bottom: em; */
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0);
   color: #fff;
+  position: absolute;
   
 }
 
@@ -184,7 +201,7 @@
 .about_header{
   color: white;
   text-align: left;
-  font-size: 60px;
+  font-size: 50px;
   margin-left: 10px;
   padding-left: 100px;
 }
@@ -200,7 +217,7 @@
   text-decoration: none; /* Remove underline */
   color: white; /* Change text color to black */
   margin-left: 20px; /* Add margin as needed */
-  margin-right: 30px; /* Add margin as needed */
+  /* margin-right: 30px; Add margin as needed */
   font-size: 30px;
 }
 

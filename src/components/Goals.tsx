@@ -39,7 +39,7 @@ export default function Goals() {
       animate={controls}
       transition={{ duration: 0.7, ease: 'easeOut' }}
     >
-        <h2 className="about_header">О сайте</h2>
+        <h2 className="about_header"  id="goals">About us</h2>
         <div className="vl">
           <img src={rocket} alt="rocket" className="over-line-image" />
           <p className="about_text">
@@ -49,7 +49,7 @@ export default function Goals() {
           </p>
         </div>
         <div className="extra_line"></div>
-        <h2 className="about_header">Наша миссия</h2>
+        <h2 className="about_header" id="mission">Our mission</h2>
         <div className="vl">
           <img src={flag} alt="flag" className="over-line-image" />
           <p className="about_text">
