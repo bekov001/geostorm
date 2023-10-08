@@ -219,12 +219,16 @@
   margin-left: 20px; /* Add margin as needed */
   /* margin-right: 30px; Add margin as needed */
   font-size: 30px;
+  z-index: 10;
 }
 
 .headerone{
   color: white;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .headerthree{
   color: white;
+  margin-left: 30px;
 }

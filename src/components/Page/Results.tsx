@@ -111,7 +111,7 @@ data =  data.map((entry, index) => {
 function Results() {
   return (
     <div>
-    <div style={{position: 'relative', height: 50}}>
+    <div style={{position: 'relative', height: 40}}>
     </div>
      
 
@@ -145,7 +145,7 @@ function Results() {
             
         </ResponsiveContainer>
 
-  <table style={{width:'100%', color:"white", marginLeft: "2em", marginRight: "2em", height: 20, border: "none"}}>
+  <table style={{width:'96%', color:"white", marginLeft: 20, margin: 'auto', height: 20, border: "none"}}>
   <tr>
     <td  style={{backgroundColor: barColors[0]}}></td>
     <td style={{backgroundColor: barColors[1]}}></td>
